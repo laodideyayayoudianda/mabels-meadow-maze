@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Cocos Creator | MabelsMeadowMaze</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="portrait"/>
+  <meta name="x5-orientation" content="portrait">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.25fc5.css"/>
+  <link rel="icon" href="favicon.8de18.ico"/>
+<style>#splash{position:fixed;inset:0;z-index:1000;background:#171717 url("splash.85cfd.png") no-repeat center 42%;background-size:180px auto;display:flex;align-items:center;justify-content:center;flex-direction:column;color:white;font:16px Arial}#cocos-message{position:absolute;top:52%;left:0;width:100%;text-align:center;margin:0}#cocos-retry{position:absolute;top:65%;left:50%;transform:translateX(-50%);padding:12px 30px;font:18px Arial}#cocos-retry[hidden]{display:none}#splash .progress-bar{position:absolute;width:200px;top:60%;left:50%;transform:translateX(-50%)}#splash .progress-bar span{transition:none}</style></head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash" data-cocos-official-loading><p id="cocos-message">Loading...</p><button id="cocos-retry" hidden>Retry</button>
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+
+
+
+
+
+
+<script>window.MeadowExportFiles={"settings":"src/settings.92de6.js","engine":"cocos2d-js.80ec5.js","physics":"physics.8ff32.js"};</script><script src="meadow-web-boot.js"></script></body>
+</html>

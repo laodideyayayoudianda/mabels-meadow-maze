@@ -1,0 +1,4 @@
+Music: existing MintoDog CC0 selections retained.
+SFX: Kenney UI/Interface/Impact/Jingles/Casino and local indexed CC0 wood/water recordings.
+Full original URLs, authors and licenses: credits.csv and asset-manifest.json.
+No game-visible attribution required by these CC0 recordings.
