@@ -1,0 +1,37 @@
+{
+    "paths": {},
+    "uuids": [
+        "bcJNHTF9wB890lDjq/wv/1",
+        "ddJA0zLgg747L8vSHZwPPq",
+        "e3tmngITq+WOCPbowH/SCz"
+    ],
+    "scenes": {
+        "db://assets/scenes/Meadow.fire": "bcJNHTF9wB890lDjq/wv/1"
+    },
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "0d1c8673f": [
+            "bcJNHTF9wB890lDjq/wv/1",
+            "ddJA0zLgg747L8vSHZwPPq"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0d1c8673f",
+            "8125d",
+            "e3tmngITq+WOCPbowH/SCz",
+            "96693"
+        ],
+        "native": [
+            "e3tmngITq+WOCPbowH/SCz",
+            "85cfd"
+        ]
+    }
+}
